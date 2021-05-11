@@ -53,3 +53,17 @@ function User(firstName,lastName,avatar) {
     this.lastName = lastName;
     this.avatar = avatar;
 }
+
+hhehe = (a,b)=>a+b;
+console.log('so diem=='+hhehe(4,5));
+
+myObject ={};
+myObject.hoten ='Nguyen Tan Viet Thu';
+myObject.tuoi ='92';
+myObject['nam-sinh'] = '1990';
+console.log(myObject)
+myObject['mai-ha-buoi'] = 'ahihi';
+console.log(myObject)
+console.log(myObject.hoten)
+delete myObject['hoten']
+console.log(myObject)
