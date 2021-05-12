@@ -3,7 +3,7 @@
 // Có 3 loại function : 
     // 1- Declare function,chỉ expr func có tính chất hosting
     // 2- Expression function(Ex: var s = function(),function trong object và callback cũng là expression fnc) 
-    // 3- Arrow function
+    // 3- Arrow function var a = (agr1,arg2)=> arg1+arg2;
 // OBJECT 
     // Khai bao
         //var objName = {name:'thu',tuoi:8}
@@ -27,43 +27,20 @@
 
 ///////// CODE
 //function
-
-var s= function () {
-        console.log('xin chao');
-};
-s();
-
-//Object
-var objTest = {
-    name: 'thu',
-    tuoi: 22,
-    getName: function () {
-        return this.name;
-    }
-};
-objTest.namsinh = 1989;
-objTest['dia-chi'] = '59 Tran Phu';
-console.log(objTest['name'] + objTest.tuoi);
-console.log(objTest.getName());
-
-// Object Constructor
-
-function User(firstName,lastName,avatar) {
+var user = function (firstName, lastName, avatar) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.avatar = avatar;
 }
 
-hhehe = (a,b)=>a+b;
-console.log('so diem=='+hhehe(4,5));
+user1 = new user('Thu','Nguyen','Avarta');
 
-myObject ={};
-myObject.hoten ='Nguyen Tan Viet Thu';
-myObject.tuoi ='92';
-myObject['nam-sinh'] = '1990';
-console.log(myObject)
-myObject['mai-ha-buoi'] = 'ahihi';
-console.log(myObject)
-console.log(myObject.hoten)
-delete myObject['hoten']
-console.log(myObject)
+var arrA = [
+    {name:'thu',age:32},
+    {name:'Trang',age:14},
+    {name: 'thu',age:23}
+];
+var callbackV = a  => a.diachi='tran phu';
+var map2= arrA.map(callbackV);
+console.log(map2)
+

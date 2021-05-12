@@ -1,0 +1,137 @@
+#baucu {
+    border-top: 6px solid #1778cb;
+    /*border-left: 1px solid #BCBCBC;*/
+    /*border-right: 1px solid #BCBCBC;*/
+}
+
+.baucu-box {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+}
+
+.baucu-box-header {
+    width: 100%;
+    border-bottom: 1px solid #e1e8ee;
+    box-sizing: border-box;
+}
+
+.baucu-box-header .underline {
+    display: block;
+    width: 50px;
+    padding: 0;
+    border-top: 2px solid #0181ff;
+    margin-bottom: -1px;
+    border-radius: 0px 2px 0px 0px;
+}
+
+.baucu-box-header-icon {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+}
+
+.baucu-box-header-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    margin: 0px;
+    color: #222;
+    display: inline-block;
+}
+
+/**/
+.baucu-box-content {
+    text-align: justify;
+}
+
+.icon-list-baucu {
+    margin-top: -1px;
+    float: left;
+}
+
+.hanglon {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.hanglon::before, .hanglon::after {
+    content: " ";
+    display: table;
+}
+
+.hangnho {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul.list-news {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+li.news-item {
+    list-style-type: none;
+}
+
+.colitem {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 2px;
+    margin-top: -1px;
+    box-sizing: border-box;
+}
+
+.link-news .news-item {
+    margin-top: -1px;
+    float: left;
+}
+
+.link-news .icon-list-baucu {
+    margin-top: -1px;
+    float: left;
+}
+
+
+.link-news-content {
+    margin-left: 15px;
+    padding-left: 10px;
+}
+
+.baucu-1 {
+    padding: 10px;
+}
+
+.baucu-tieude, .baucu-tieude:hover {
+    text-decoration: none;
+}
+
+.baucu-tieude {
+    color: #000000 !important;
+    line-height: 16px;
+    font: 400 13px arial;
+    line-height: normal;
+    line-height: 18px;
+    background-color: transparent;
+}
+
+a.baucu-tieude:hover {
+    color: #e22c22 !important;
+    font-style: italic;
+}
+
+.dng-bullet-arhanglon .icon-list-baucu i {
+    background: url(icon_local.png) no-repeat;
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+}
